@@ -1,0 +1,49 @@
+#btn-section {
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    padding: 5px 7px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 5px #999;
+}
+
+.btn-primary {background-image: linear-gradient(to right, #AA076B 0%, #61045F 51%, #AA076B 100%)}
+
+.btn-primary:hover { 
+    background-position: right center; 
+}
+
+.btn-primary:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn-primary:focus {
+    outline: 0;
+}
+
+
+
+/*Small devices  */
+@media (min-width: 576px) { 
+    
+}
+
+/* Medium devices  */
+@media (min-width: 768px) { 
+
+}
+
+/* Large devices  */
+@media (min-width: 992px) { 
+    
+}
+
+

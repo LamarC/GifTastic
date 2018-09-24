@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GifTastic!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <header></header>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container">
+        <div class="row" id="btn-section">
+            <!--  Buttons  -->
+            <div class="col" id="render-btns">
+                <button class="btn-primary" type="button" value="Input">Earthbound</button>
+                <button class="btn-primary" type="button" value="Input">Double Dragon</button>
+                <button class="btn-primary" type="button" value="Input">Fire Emblem</button>
+                <button class="btn-primary" type="button" value="Input">Punch-Out!!</button>
+                <button class="btn-primary" type="button" value="Input">Donkey Kong Country</button>
+                <button class="btn-primary" type="button" value="Input">Super Mario World</button>
+                <button class="btn-primary" type="button" value="Input">The Legend of Zelda</button>
+                <button class="btn-primary" type="button" value="Input">Metroid</button> 
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="row">
+            <!--    GIFs      -->
+            <div class="col">
+                <div id="gifs">GIFS</div> 
+            </div>
+
+            <div class="col">
+                <!--   Input/Form   -->
+                <form id="gif-form">
+                    <h5>Add another game </h5>
+                    <label for="gif-input"></label>
+                    <input type="text" id="gif-input">
+                    <br><br>
+                    <!--  Submit button  -->
+                    <input type="submit" id="find-game" class="btn btn-dark" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script rel="javascript" src="./assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
