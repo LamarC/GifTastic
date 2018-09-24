@@ -1,3 +1,5 @@
+var gamesArray = ["Earthbound", "Double Dragon", "Fire Emblem", "Punch-Out!!", "Donkey Kong Country", "Super Mario World", "The Legend of Zelda", "Metroid"];
+
 $(document).ready(function(){
  
     $(".btn-primary").on("click", function() {
@@ -60,14 +62,19 @@ $(document).ready(function(){
         $(this).attr("data-state", "still");
         }
     });  
-
-
-
   });
+});
+
+var games = [''];
+
+function submitButton() {
+    var userInput = $("gif-input").val();
+    searchGif(userInput);
+}
+
 
 });
 
-});
 
 
 

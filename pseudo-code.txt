@@ -1,0 +1,25 @@
+Create a README.md file 
+
+Make it mobile resposive 
+
+Create var = topics [array of anything subject I want];
+
+Create bttns in html / try a loop to append bttns
+
+Place the images (10) static
+
+.on click animate || static
+
+Display rating 
+
+Make a dwnld bttn for each gif
+
+-------------------------------------------
+
+README file
+
+What the project does
+Why the project is useful
+How users can get started with the project
+Where users can get help with your project
+Who maintains and contributes to the project
