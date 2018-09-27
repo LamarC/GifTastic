@@ -61,16 +61,12 @@ var gamesArray = ["Earthbound", "Double Dragon", "Fire Emblem", "Punch-Out!!", "
     });
 
     var games = [''];
-
     
-        //This function "adds" the buttons 
-
-        // handles the event when clicked
         $("#find-game").on("click", function(){
             var gameButton = $("#gif-input").val();
-            //adds the new animal
+    
 
-            var newButton = $('<button/>').addClass('btn btn-info animal').attr('data-name',gameButton).html(gameButton);
+            var newButton = $('<button/>').addClass('btn-primary').attr('data-name',gameButton).html(gameButton);
             
             $('.btn-primary').append(newButton);
 
